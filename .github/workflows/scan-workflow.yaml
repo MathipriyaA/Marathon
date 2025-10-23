@@ -1,4 +1,4 @@
-name: Scan workflow
+name: Scans workflow
 
 on:
   workflow_dispatch:
@@ -8,8 +8,8 @@ permission:
 
 jobs:
 
-  scan-workflow:
-    name: Scan workflow
+  scans-workflow:
+    name: Scans workflow
     runs-on: ubuntu-latest
 
     steps:
